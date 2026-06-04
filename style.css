@@ -4,8 +4,8 @@
    字体：中文 钉钉进步体 / 英文 Inter ；无斜体；颜色表达强调
    ============================================================ */
 
-@import url('https://cdn.jsdelivr.net/npm/@fontsource-variable/inter/index.css');
-@import url('https://cdn.jsdelivr.net/npm/cn-fontsource-ding-talk-jin-bu-ti-regular/font.css');
+@import '@fontsource-variable/inter/index.css';
+@import 'cn-fontsource-ding-talk-jin-bu-ti-regular/font.css';
 
 :root {
   --g5-bg: #07080d;
