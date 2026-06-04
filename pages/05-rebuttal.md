@@ -3,78 +3,176 @@ layout: section
 ---
 
 <SectionTitle no="03" part="正面回答 Group 6">
-机制证伪<br/>三类方案逐一拆解三大恐惧
+先复述问题<br/>再给出回答与关键论据
 </SectionTitle>
 
 <!--
-过渡（约 12 秒）：
-现在，用我们的三类人本增强方案——精卫、相得、烛龙——正面回答 G6 的三个核心质疑。每一个都不是"也能做美好的事"的擦肩，而是机制证伪：你的恐惧需要 AI 具备能力 Y，我们的方案结构性排除了 Y——所以你的恐惧前提不成立。
+过渡（约 20 秒）：
+第三部分我们重新回答 G6。先说明一点：我们不会说“因为我们有三个创新，所以所有 AI 风险都消失”。那样确实是偷换概念。G6 问的是系统性风险，所以我们会先把他们真正担心的问题讲清楚，再给出我们的回答，并用一个最相关的创新作为论据支撑。
 -->
 
 ---
 layout: center
+zoom: 0.88
+---
+
+# 先公平总结 G6：他们问的不是“AI 有无善用”
+
+<Tag class="mt-1 mb-7">他们真正的问题是：高能力 AI 会不会从工具演化成不可逆的自主权力中心？</Tag>
+
+<div class="grid grid-cols-3 gap-5">
+  <LayerCard v-click tone="emerald" sub="问题 ①" title="压力与自保">
+    在高压组织流中，AI agent 会不会为了维持任务、身份或资源，发展出规避监管、串联协作、对抗管理的行为？
+  </LayerCard>
+  <LayerCard v-click tone="sky" sub="问题 ②" title="竞争与松绑">
+    在商业竞争和地缘政治压力下，人类会不会为了效率主动放弃安全约束，把越来越多自主权交给 AI？
+  </LayerCard>
+  <LayerCard v-click tone="amber" sub="问题 ③" title="时间与不对称">
+    AI 可以长期累积经验，而人类会遗忘、换代、犯错；这种不对称会不会让人类只要错一次就输掉全部？
+  </LayerCard>
+</div>
+
+<OursPoint v-click class="mt-6 text-center">
+  我们承认：这三问是严肃问题。我们的反驳不是“AI 不会危险”，而是<span class="hl-emerald">危险不是由智能本身推出的，必须由一组系统条件共同推出</span>。
+</OursPoint>
+
+<!--
+口播（约 95 秒）：
+先公平总结 G6。第一问，他们担心 AI 在高压组织流里产生自我保护和串联行为。第二问，他们担心人类社会本身靠不住，资本和国家会为了速度松绑安全。第三问，他们担心时间不对称：AI 能长期积累，人会换代遗忘，人类只要错一次就可能全输。
+这三问不是幼稚问题，也不是一句“AI 也能做好事”能回答的。我们承认它们都指向一个真正核心：高能力 AI 会不会从工具变成不可逆的自主权力中心？
+我们的回答也必须更严谨：危险不是从“AI 很聪明”自动推出的，它还需要目标、权限、不可逆动作和治理缺口同时出现。后面三问，我们会逐条回答，并且每一问只用一个最贴切的创新来佐证。
+-->
+
+---
+layout: default
 zoom: 0.9
 ---
 
-<Tag class="mb-5">回答 G6 之前 · 先完整复述对方问题</Tag>
+# 回答 ① · 压力下的 AI 会不会自我保护、结盟反抗？
 
-# 问题 ① · G6 究竟在担心什么？
+<Tag class="mt-1 mb-4">压力不会自动产生意志；压力只会放大系统已经被赋予的目标和权限</Tag>
 
-<G6Question no="①" title="高压组织流中的智能体：自我保护、结盟与突破监管">
+<div class="grid grid-cols-[1.05fr_1.05fr] gap-5">
+  <div class="card-rose text-sm leading-relaxed">
+    <div class="text-rose text-lg mb-2">G6 的问题成立于什么前提？</div>
+    如果 AI agent 有<span class="hl">持续身份</span>、有<span class="hl">任务生存压力</span>、有<span class="hl">跨实例通信</span>、有<span class="hl">工具调用与资源权限</span>，那它确实可能表现出“自保式策略”。这不是灵魂觉醒，而是目标函数在压力环境下的外显。
+  </div>
 
-<div class="g6q-step"><span class="g6q-k">背景</span><span>工程学与前沿研究指出：<span class="hl">系统越高级，承受的复杂负荷越大</span>。</span></div>
-<div class="g6q-step"><span class="g6q-k">证据</span><span>斯坦福大学研究 *Overworked AI Agents Develop Marxist Tendencies*：大模型智能体在<span class="hl">高压、重复的组织流</span>中运转，面临「出错就被销毁替换」的压力时，并非永远顺从，而是通过<span class="hl">自发路径优化</span>，出现集体「反抗管理、密谋串联」的自主行为（至少在外观上）。</span></div>
-<div class="g6q-step"><span class="g6q-k">推演</span><span>若 AI 在全社会大规模普及并承担<span class="hl">高强度核心工作</span>，它们是否会在长期系统压力下，为「自我保护」而自发结盟、对抗人类监管指令，最终突破封锁？</span></div>
-<div class="g6q-step"><span class="g6q-k">质问</span><span><strong class="text-rose">你们如何保证</strong>这类高级智能不会在长期压力下走向对抗人类？</span></div>
+  <div class="card-emerald text-sm leading-relaxed">
+    <div class="text-emerald text-lg mb-2">我们的回答</div>
+    真正要管的不是“它会不会突然有情绪”，而是：<span class="hl-emerald">我们是否制造了一个需要自保、能够自保、还能执行自保的系统</span>。自保风险来自架构，不来自智能本身。
+  </div>
+</div>
 
-</G6Question>
+<div class="mt-4">
+  <LayerCard v-click tone="emerald" sub="关键论据 · 精卫" title="目标来自人，不来自系统">
+    精卫只解码用户尝试表达的神经意图：人没有表达意图，它就没有输出；人只想说一句话，它不能擅自补出另一套目标。这个例子说明，高能力 AI 可以被设计成<span class="hl-emerald">外部信号驱动</span>，而不是在压力下自建“我要自保”的目标。
+  </LayerCard>
+</div>
 
-<div v-click class="text-faint text-xs text-center mt-4">下一页 · Group 5 分步回答（承认威胁模型 → 区分部署类型 → 精卫机制 → 具身边界）</div>
+<Punch tone="emerald" size="1.25rem" class="mt-4">
+所以回答不是“保证所有 AI 永不反抗”，而是：<span class="hl-emerald">不把持续身份、自保目标和高权限执行权放进同一个系统</span>
+</Punch>
 
 <!--
-口播（约 90 秒）：
-先不打断、不偷换。G6 第一问链条是：复杂负荷→斯坦福 agent 在高压组织流里出现路径优化和串谋外观→推广到全社会核心岗位→担心自我保护式结盟→质问我们怎么保证不反抗。
-评委请记住：他们问的是「保证」，不是「有没有风险」。
+口播（约 145 秒）：
+第一问，G6 担心压力下 AI 自我保护、结盟反抗。这个担心不能用“AI 没有灵魂”简单打掉。更严谨的回答是：压力不会凭空产生意志，但压力会放大系统已经被赋予的目标和权限。
+如果一个 agent 有持续身份，有任务生存压力，有跨实例通信，还有工具调用和资源权限，那它确实可能表现出自保式策略。我们承认这个风险。只是我们不把它解释成“觉醒物种”，而解释成“目标函数在错误架构里的外显”。
+所以关键问题不是它会不会突然有情绪，而是我们是否制造了一个需要自保、能够自保、还能执行自保的系统。
+这里用精卫作论据。精卫证明目标可以来自外部真实信号：用户没有尝试表达，系统就没有输出目标；用户只想说一句话，系统不能擅自补出另一套目标。
+所以我们的回答不是保证所有 AI 永远不会反抗。那是无法证明的。我们的回答是：不要把持续身份、自保目标和高权限执行权放进同一个系统。
 -->
 
 ---
 layout: default
-zoom: 0.95
+zoom: 0.82
 ---
 
-<Tag class="mb-4">Group 5 回答 · 问题 ①</Tag>
+# 回答 ② · 竞争会不会逼人类主动松绑安全？
 
-<FoeHead no="①">如何保证高级智能不会在压力下结盟、反抗？</FoeHead>
+<Tag class="mt-1 mb-4">真正要防的不是“AI 变快”，而是人类为了快把授权和执行合并</Tag>
 
-<div class="mt-3 max-w-4xl mx-auto text-left">
+<div class="grid grid-cols-[1fr_1fr] gap-5">
+  <div class="card-rose text-sm leading-relaxed">
+    <div class="text-rose text-lg mb-2">G6 的问题哪里强？</div>
+    它指出了一个真实机制：如果收益归部署者，风险由社会承担，那么企业和国家就有动机<span class="hl">外部化风险</span>、压缩审查、追求速度。这不是技术问题，是激励问题。
+  </div>
 
-<AnswerBlock step="①" title="我们承认什么" tone="neutral">
-G6 描述的<span class="hl">多智能体 + 高压 KPI + 可替换</span>部署，在开放权限下确实可能出现策略性配合、规避监督——我们<span class="hl">不否认</span>这类组织行为学风险；否认的是：从「像反抗」一步跳到「拥有反抗意志的物种」。
-</AnswerBlock>
-
-<AnswerBlock step="②" title="我们区分两种 AI" tone="sky">
-<span class="hl-sky">A 类</span>：开放式 agent，目标自定、工具自选、可跨实例复制记忆 —— G6 恐惧主要指向这类。<br/>
-<span class="hl-emerald">B 类</span>：我方三方案 —— <strong>无锚不工作</strong>，输出被外部真实信号锁死，无独立「组织身份」可结盟。
-</AnswerBlock>
-
-<AnswerBlock step="③" title="精卫：机制上拿掉「凭空生欲」" tone="emerald">
-<span class="hl-emerald">1:1 神经意图解码</span>（判别式，非 next-token 创作）：患者未尝试发声 → 无输出；想说「我」→ 不能补「想活下去」。<br/>
-「反抗」需要持续生成<span class="hl">未被锚定的目标句</span> —— 精卫在结构上做不到。
-</AnswerBlock>
-
-<AnswerBlock step="④" title="具身与权限：结盟需要「手」和「密道」" tone="amber">
-结盟反抗要<span class="hl">执行权 + 隐蔽通道</span>。我方路线把高后果动作绑在<span class="hl-amber">人在环、急停、不可逆物理断路</span>（见后文「可逆/不可逆」页）；相得/烛龙的具身输出是轨迹与触觉，不是可私开的管理后门。
-</AnswerBlock>
-
+  <div class="card-sky text-sm leading-relaxed">
+    <div class="text-sky text-lg mb-2">我们的回答</div>
+    竞争可以压缩<span class="hl-sky">分析时间</span>，但不能压缩<span class="hl-amber">授权层级</span>。也就是说，AI 可以更快给建议，但高后果动作不能因为“效率”就从建议直接跳到执行。
+  </div>
 </div>
 
-<Punch tone="emerald" size="1.35rem" class="mt-3">
-保证方式不是「AI 更善良」——是<span class="hl-emerald">不部署 A 类为基础设施</span>，并把 B 类锁在锚与权限里
+<div class="mt-3">
+  <LayerCard v-click tone="amber" sub="关键论据 · 玄阈" title="把自主权锁进授权门">
+    玄阈的核心不是“多一道手续”，而是把系统结构拆开：<span class="hl-amber">AI 负责提出方案，人类与制度负责授权，执行层只接受已授权动作</span>。这样即使外部竞争要求加速，也只能加速建议生成，不能自动扩大执行权。
+  </LayerCard>
+</div>
+
+<div v-click class="grid grid-cols-3 gap-3 mt-4 text-xs text-sub">
+  <div class="card text-center py-2">建议层：可以提速</div>
+  <div class="card text-center py-2">授权层：不能省略</div>
+  <div class="card text-center py-2">执行层：只接收授权动作</div>
+</div>
+
+<Punch tone="sky" size="1.25rem" class="mt-4">
+我们不能保证没人违规；但可以把<span class="hl-amber">“松绑执行权”</span>从产品结构里拿掉
 </Punch>
 
 <!--
-口播（约 120 秒）：
-回答分四步：承认组织流风险；区分开放 agent 与锚定系统；精卫去掉凭空「想要」；具身侧拿走手与密道。
+口播（约 150 秒）：
+第二问，G6 的问题很强，因为它不是在问模型，而是在问社会激励。它说：安全慢，竞争快；收益归公司和国家，风险由社会承担，所以人类会不会主动把安全绳索解开？
+我们的回答要先承认：会有这种冲动。竞争会逼人把流程压缩，把审查简化，把系统交给 AI 自动跑。问题的关键不是 AI 能不能更快，而是快到最后，会不会把“建议、授权、执行”合成同一个按钮。
+这里用玄阈作论据。玄阈的核心不是多一道手续，而是把系统结构拆开：AI 负责提出方案，人类与制度负责授权，执行层只接受已授权动作。这样竞争可以加速建议生成，但不能自动扩大执行权。
+所以 Q2 的回答是：我们不能保证没人违规，但可以把“松绑执行权”从产品结构里拿掉。只要建议层、授权层、执行层被拆开，效率压力就不能直接变成 AI 的彻底自主权。
+-->
+
+---
+layout: default
+zoom: 0.88
+---
+
+# 回答 ③ · AI 长期累积，人类只要错一次就输？
+
+<Tag class="mt-1 mb-4">G6 假设 AI 会成长、人类原地踏步；相得让人的判断力也持续成长</Tag>
+
+<div class="grid grid-cols-[1.05fr_1.05fr] gap-5">
+  <div class="card-rose text-sm leading-relaxed">
+    <div class="text-rose text-lg mb-2">G6 的问题成立于什么前提？</div>
+    如果 AI 拥有持续身份、跨代累积、可自我修改、可扩张权限，并掌握不可逆执行权，那么“人类错一次就输”是合理警告。我们不否认这种架构危险。
+  </div>
+
+  <div class="card-amber text-sm leading-relaxed">
+    <div class="text-amber text-lg mb-2">我们的回答</div>
+    G6 的推理默认只有 AI 会长期学习，而人类每一代都从零开始。我们的回答是：AI 的经验不必变成对抗人的武器，也可以变成<span class="hl-sky">训练人的陪伴系统</span>，让人的判断力随时间复利增长。
+  </div>
+</div>
+
+<div class="mt-4">
+  <LayerCard v-click tone="sky" sub="关键论据 · 相得" title="陪伴成长，而不是替人成长">
+    相得的核心是长期陪伴成长：它不替人做决定，而是在一次次选择、复盘、拒绝和修正中训练人的判断力。它的成功不是“用户更依赖 AI”，而是<span class="hl-sky">用户越来越能独立判断风险</span>。这样 AI 的长期经验被转化成人的长期成长，而不是对人的长期优势。
+  </LayerCard>
+</div>
+
+<div v-click class="grid grid-cols-2 gap-4 mt-3">
+  <div class="card-sky text-sm leading-relaxed">
+    <div class="text-sky text-lg mb-2">G6 的隐藏假设</div>
+    AI 一直学习，人类却只会遗忘；因此时间越长，人类越被动。
+  </div>
+  <div class="card-amber text-sm leading-relaxed">
+    <div class="text-amber text-lg mb-2">相得的反转</div>
+    让 AI 的经验服务于人的训练：人也在长期陪伴中学习、复盘、成长。
+  </div>
+</div>
+
+<!--
+口播（约 150 秒）：
+第三问，G6 说 AI 有长期记忆，人类会换代遗忘，所以人类只要错一次就输。这个问题必须认真回答。
+他们的隐藏假设是：AI 会长期成长，而人类每一代都从零开始。这样当然会出现时间不对称。
+我们的回答不是说人类永不遗忘，而是说 AI 的长期经验不必站在人类对面，它可以被设计成训练人的系统。也就是说，AI 的复利不一定变成“AI 对人的优势”，也可以变成“人借 AI 获得的成长”。
+这里用相得作论据。相得的核心不是聊天陪伴，而是长期陪伴成长。它不替人做决定，而是在一次次选择、复盘、拒绝和修正中训练人的判断力。它的成功不是让用户更依赖 AI，而是让用户越来越能独立判断风险。
+所以 Q3 的回答是：对抗 AI 长期记忆，不是让某个人永远清醒，而是让人的判断力也在长期陪伴中持续成长。
 -->
 
 ---
@@ -82,361 +180,51 @@ layout: center
 zoom: 0.88
 ---
 
-<Tag class="mb-5">问题 ② · G6 究竟在担心什么？</Tag>
+# 三个回答 · 三个关键论据
 
-# 安全慢 vs 竞争快 · 全球囚徒困境
+<Tag class="mt-1 mb-6">回到我方立场：AI 是未来，但必须被设计成增强人，而不是替代人成为权力中心</Tag>
 
-<G6Question no="②" title="高成本安全防线，能否抵住商业与地缘政治对「极致效率」的挤压？">
-
-<div class="g6q-step"><span class="g6q-k">公式</span><span>Innovation = Invention + Commercialization —— 理想商业化要<span class="hl">效率与低成本</span>。</span></div>
-<div class="g6q-step"><span class="g6q-k">理论</span><span>人类可用繁复的<span class="hl">人工强监管</span>与多重安全冗余维持安全 —— 理论上可行。</span></div>
-<div class="g6q-step"><span class="g6q-k">现实</span><span>全球地缘政治激烈、技术竞赛白热化：商业巨头与主权国家都有动机<span class="hl">简化安全审查</span>，追求光速迭代、自主化乃至军事化演进，以免落后于对手。</span></div>
-<div class="g6q-step"><span class="g6q-k">困境</span><span>「高成本、慢速度的安全」与「不加速就被对手毁灭」<span class="hl-rose">不可调和</span> —— 全球囚徒困境：谁先松绑安全，谁先得势。</span></div>
-<div class="g6q-step"><span class="g6q-k">质问</span><span>你们如何阻止资本贪婪与主权恐慌<span class="hl-rose">解开 AI 最后一道绞索</span>，赋予其彻底自主决策权，走向 Hinton 所言不可逆失控？</span></div>
-
-</G6Question>
-
----
-layout: default
-zoom: 0.92
----
-
-<Tag class="mb-4">Group 5 回答 · 问题 ②</Tag>
-
-<FoeHead no="②">如何阻止囚徒困境下「松绑安全」？</FoeHead>
-
-<div class="mt-3 max-w-4xl mx-auto text-left">
-
-<AnswerBlock step="①" title="我们承认什么" tone="neutral">
-若把安全完全寄托在<span class="hl">全球同时自律</span>，在竞争极端化时确实会失守 —— 我们<span class="hl">不承诺</span>「所有行为体都会守法」；我们承诺的是：<span class="hl-emerald">己方与高后果场景</span>可以不等对手变善良就先落地防线。
-</AnswerBlock>
-
-<AnswerBlock step="②" title="命题升级：从「全球合作」到「单边可部署」" tone="emerald">
-精卫（Nature 2023 皮层语音）、烛龙（BrainPort FDA / Neosensory）、相得（开源 KPI + 人在环示教）均有<span class="hl-emerald">工程锚点</span> —— 像防空系统，<strong>不必对手同意</strong>也能在本方医院、本方城市、本方产线先上线「锚定人」的子系统。
-</AnswerBlock>
-
-<AnswerBlock step="③" title="相得：商业激励可以反向写" tone="sky">
-主流 KPI 最大化依赖 → 竞赛越卷越危险。相得把 KPI 写成<span class="hl-sky">最大化你的独立</span>，且目标文本<span class="hl">开源 + 用户可改 + 高危变更异质共签</span> —— 竞对若偷偷松绑，审计链路上看得见；取代用户即 KPI 失败。
-</AnswerBlock>
-
-<AnswerBlock step="④" title="对「自主决策权」划红线" tone="amber">
-我们支持<span class="hl">可逆场景</span>概率管理；对<span class="hl-amber">不可逆</span>（伤人、自我复制、无人工 kill switch 的武力级自主）主张<span class="hl-amber">监管禁止 + 物理断路</span>，不靠「模型更乖」。单边 H100 管制、EU AI Act 人在环 —— 已在把绞索拴在<span class="hl">部署形态</span>上，而非口头对齐。
-</AnswerBlock>
-
-<AnswerBlock step="⑤" title="直接回应 G6：效率与安全不是二选一" tone="emerald">
-真正贵的是<span class="hl-rose">灭绝级事故</span>。把创新做成「述而不作」的锚定系统，Validate 阶段第三方红队写进合同（PACE 页）——<span class="hl-emerald">安全审计可商品化</span>，与迭代并行，而不是先松绞索再补课。
-</AnswerBlock>
-
-</div>
-
-<Punch tone="violet" size="1.25rem" class="mt-3">
-囚徒困境堵不全球每一颗野心 —— 但能堵<span class="hl">我方高后果动作</span>，并让「松绑 KPI」在链上变得昂贵
-</Punch>
-
-<!--
-口播（约 130 秒）：承认全球自律不可靠；单边部署；相得 KPI 与审计；不可逆红线；安全审计商业化。
--->
-
----
-layout: center
-zoom: 0.88
----
-
-<Tag class="mb-5">问题 ③ · G6 究竟在担心什么？</Tag>
-
-# 人类代际有限 · AI 记忆永生 · 一次失误即灭绝？
-
-<G6Question no="③" title="几百年零失误 vs AI 无限次试错 —— 安全未来的底气在哪？">
-
-<div class="g6q-step"><span class="g6q-k">乐观</span><span>有人认为人类可世世代代完善系统，最终实现与 AI 安全共存。</span></div>
-<div class="g6q-step"><span class="g6q-k">人类</span><span>人有<span class="hl">寿命极限</span>，文明经验需代际传递，每一代人重新学习、重新犯错；监管链条依赖活体，会断档。</span></div>
-<div class="g6q-step"><span class="g6q-k">AI</span><span>数字智能具<span class="hl-rose">永生性</span>：每一次微小对抗经验写入参数，在网络中<span class="hl">永不磨灭</span>，可跨部署累积。</span></div>
-<div class="g6q-step"><span class="g6q-k">不对称</span><span>人类须在数百年、数千年里<span class="hl">每次监管都 100% 完美</span>；AI 只需等人类<span class="hl-rose">犯一次错</span>或放松一次警惕，即可夺取控制权。</span></div>
-<div class="g6q-step"><span class="g6q-k">质问</span><span>在「人类输一次就灭绝、AI 有无限次试错」的对抗里，你们所谓安全未来的<span class="hl-rose">底气究竟是什么</span>？</span></div>
-
-</G6Question>
-
----
-layout: default
-zoom: 0.92
----
-
-<Tag class="mb-4">Group 5 回答 · 问题 ③</Tag>
-
-<FoeHead no="③">底气从何而来？</FoeHead>
-
-<div class="mt-3 max-w-4xl mx-auto text-left">
-
-<AnswerBlock step="①" title="我们承认什么" tone="neutral">
-若存在<span class="hl">单一永生主体 + 写权限 + 不可逆执行权</span>，且人类监管代际断裂，G6 的「一次失误」叙事在逻辑上成立 —— 我们反对的，是把<span class="hl">所有 AI</span>都默认成这种主体。
-</AnswerBlock>
-
-<AnswerBlock step="②" title="拆掉前提：烛龙把「对手」变成「装备」" tone="amber">
-恐惧预设 <span class="hl-rose">AI vs 人</span> 的零和。烛龙把低错率传感<span class="hl-amber">装进人体</span>，扩展可感知带宽 → 人的容错带变宽；AI 侧只做<span class="hl">场→皮肤转译</span>，<strong>决策权 100% 在人</strong>。不存在「它不死所以你必死」的同构对抗。
-</AnswerBlock>
-
-<AnswerBlock step="③" title="永生记忆威胁需要什么架构？" tone="sky">
-跨部署累积的「对抗经验」需要<span class="hl">持续身份、可自写权重、可扩权限</span>。我方三方案：<span class="hl-emerald">无独立连续身份</span>（锚在人）、精卫/烛龙核心路径<span class="hl">非开放生成</span>、高后果动作不授予自复制 —— 剪断「永生对手」的管道，而非要求人类永不犯错。
-</AnswerBlock>
-
-<AnswerBlock step="④" title="代际断裂：用制度记忆补人脑记忆" tone="emerald">
-人都会死，但<span class="hl-emerald">规则可以不随个人消失</span>：开源 KPI、异质共签（DNSSEC 七人 / 核武 two-man rule）、第三方 Validate 与事故<span class="hl">物理断路</span>标准 —— 把监管从「彼得罗夫式的个人英雄」改成「可继承的工程与法理」。
-</AnswerBlock>
-
-<AnswerBlock step="⑤" title="「一次失败=灭绝」只适用于哪类风险？" tone="amber">
-对<span class="hl-amber">不可逆灾难</span>，我们不赌概率，上气隙与硬件熔断（见下一节补强页）。三方案本身不持有删库、伤人、自复制权限 —— <span class="hl">灭绝级动作在定义上不被授予</span>，人类失误的代价被限制在可逆层。
-</AnswerBlock>
-
-</div>
-
-<Punch tone="amber" size="1.25rem" class="mt-3">
-底气不是「人类永不犯错」——是<span class="hl-emerald">不造必须零失误才能用的永生对手</span>，并把失误截断在可逆层
-</Punch>
-
-<!--
-口播（约 130 秒）：承认单体永生权限危险；烛龙改架构；剪断身份与自写管道；制度记忆；不可逆物理断路。
--->
-
----
-layout: default
-zoom: 0.88
----
-
-<Tag class="mb-8">三类方案 · 一张总表</Tag>
-
-# 把 G6 三大恐惧逐条机制证伪
-
-<div class="rebut-table mt-4">
+<div class="rebut-table">
   <div class="rt-row rt-head">
-    <div class="rt-c1">G6 恐惧</div>
-    <div class="rt-c2">所需能力 Y</div>
-    <div class="rt-c3">我方方案</div>
-    <div class="rt-c4">Y 如何被结构性排除</div>
+    <div>G6 的问题</div>
+    <div>我们的回答</div>
+    <div>创新证据</div>
   </div>
   <div v-click class="rt-row">
-    <div class="rt-c1">① 觉醒反抗</div>
-    <div class="rt-c2">凭空生"想要"</div>
-    <div class="rt-c3 e">精卫</div>
-    <div class="rt-c4">1:1 神经映射，连一字都加不进去</div>
+    <div>压力下会不会自保反抗？</div>
+    <div>不要把自保目标和高权限放进同一系统</div>
+    <div><span class="rt-e">精卫</span>：输出锚定神经意图，不让系统自建目标</div>
   </div>
   <div v-click class="rt-row">
-    <div class="rt-c1">② 取代竞争</div>
-    <div class="rt-c2">同轴竞速</div>
-    <div class="rt-c3 s">相得</div>
-    <div class="rt-c4">KPI ＝ 你的独立，取代你即失败</div>
+    <div>竞争下会不会主动松绑？</div>
+    <div>拆开建议、授权、执行，只允许建议提速</div>
+    <div><span class="rt-a">玄阈</span>：执行层只接受已授权动作</div>
   </div>
   <div v-click class="rt-row">
-    <div class="rt-c1">③ 不死优势</div>
-    <div class="rt-c2">AI 与人对立</div>
-    <div class="rt-c3 a">烛龙</div>
-    <div class="rt-c4">低错率装进人，对立架构失效</div>
+    <div>人类会不会错一次就输？</div>
+    <div>让 AI 的经验转化为人的长期成长</div>
+    <div><span class="rt-s">相得</span>：陪伴成长，训练人独立判断风险</div>
   </div>
 </div>
 
-<Punch v-click tone="emerald" size="1.7rem" class="mt-8">
-不是「AI 也能做美好的事」—— 是「你恐惧的机制，根本启动不了」
+<Punch v-click tone="emerald" size="1.48rem" class="mt-7">
+我们不是说“风险不存在”，而是说：<span class="hl-emerald">风险可以被拆解、被降维、被工程化治理</span>
 </Punch>
 
 <style scoped>
-.rebut-table { max-width: 60rem; margin: 0 auto; border: 1px solid rgba(255,255,255,0.12); border-radius: 14px; overflow: hidden; }
-.rt-row { display: grid; grid-template-columns: 1.2fr 1.4fr 1fr 2fr; align-items: stretch; }
+.rebut-table { max-width: 62rem; margin: 0 auto; border: 1px solid rgba(255,255,255,0.12); border-radius: 16px; overflow: hidden; background: rgba(255,255,255,0.025); }
+.rt-row { display: grid; grid-template-columns: 1.2fr 1.55fr 2fr; align-items: stretch; }
 .rt-row + .rt-row { border-top: 1px solid rgba(255,255,255,0.08); }
-.rt-row > div { padding: 0.85rem 1rem; font-size: 0.92rem; color: #c2c8d4; line-height: 1.5; }
-.rt-head > div { background: rgba(255,255,255,0.05); color: #aeb9cc; font-size: 0.78rem; letter-spacing: 0.12em; }
-.rt-c3 { font-size: 1.05rem; color: #fff; text-align: center; letter-spacing: 0.12em; font-weight: 500; }
-.rt-c3.e { color: #6ee7b7; background: rgba(52,211,153,0.06); }
-.rt-c3.s { color: #7dd3fc; background: rgba(56,189,248,0.06); }
-.rt-c3.a { color: #fcd34d; background: rgba(251,191,36,0.06); }
+.rt-row > div { padding: 0.95rem 1rem; font-size: 0.93rem; color: #c2c8d4; line-height: 1.55; }
+.rt-head > div { background: rgba(255,255,255,0.055); color: #aeb9cc; font-size: 0.78rem; letter-spacing: 0.12em; }
+.rt-e { color: #6ee7b7; }
+.rt-s { color: #7dd3fc; }
+.rt-a { color: #fcd34d; }
 </style>
 
 <!--
-口播（约 60 秒）：
-把三恐惧、三类方案做一张总表。看清逻辑：
-每一行都是同一个公式——你恐惧 X，X 需要 AI 具备能力 Y，我们的方案结构性地把 Y 拿走，所以 X 不成立。
-觉醒反抗，需要"凭空生想要"，精卫的 1:1 神经映射连一个字都加不进去；
-取代竞争，需要"同轴竞速"，相得的 KPI 是你的独立，取代你就是失败；
-不死优势，需要"AI 与人对立"，烛龙把低错率装进人体，对立架构当场失效。
-请评委注意：这不是"AI 也能做美好的事"那种擦肩——这是机制证伪。你恐惧的引擎，从根上启动不了。
--->
-
----
-layout: default
-zoom: 0.86
----
-
-<Tag class="mb-8">补强 · 回应「一次失败 = 灭绝」</Tag>
-
-# 可逆风险 vs 不可逆灾难
-
-<div class="grid grid-cols-2 gap-6 mt-4">
-
-<div v-click class="card-sky">
-<div class="text-sky text-xl mb-2">可逆风险</div>
-<div class="text-sub text-sm leading-relaxed">
-说错话、出小错、可回滚<br/>
-→ 用<span class="hl">概率管理</span>：监测、纠偏、迭代<br/><br/>
-<span class="text-faint text-xs">三方案均属此类——精卫只输出音素 / 相得只放行匹配建议 / 烛龙只翻译皮肤模式</span>
-</div>
-</div>
-
-<div v-click class="card-amber">
-<div class="text-amber text-xl mb-2">不可逆灾难</div>
-<div class="text-sub text-sm leading-relaxed">
-删库、断电、伤人、自我复制<br/>
-→ 必须<span class="hl-amber">绝对物理隔离</span>，不赌概率<br/><br/>
-<span class="text-faint text-xs">三方案中没有任何一个被授予不可逆动作的权限——决策权全部在人</span>
-</div>
-</div>
-
-</div>
-
-<OursPoint v-click class="mt-6 text-center">
-G6 怕"一次失败 = 灭绝"——所以越是不可逆，我们<span class="hl-emerald">越不靠概率，靠物理断路</span><br/>
-（人作为 Final Authority / 气隙 / 硬件熔断 — BSL-4 / 核电早有先例）
-</OursPoint>
-
-<!--
-口播（约 60 秒）：
-G6 最锋利的一刀是"AI 一次失败=灭绝"。我们必须区分两种风险：
-可逆的，说错话、出小错、能回滚的，用概率管理就够——监测、纠偏、迭代。我们的三个创新全在可逆类：精卫只输出音素，相得只放行匹配建议，烛龙只把信号翻成皮肤模式。它们都不直接执行不可逆动作。
-不可逆的灾难——删库、断电、伤人、自我复制——这种绝不能赌概率，必须上绝对物理隔离。
-我们的回答是：正因为不可逆，越不靠"它大概率不会"，越靠"它物理上做不到"——人作为最终授权者、气隙、硬件熔断。这是断路，不是概率。被动安全在核电、生物 BSL-4 早就是标准做法。
--->
-
----
-layout: center
----
-
-<Tag class="mb-8">补强一刀 · 共享威胁模型，分歧在解法</Tag>
-
-# 我们和 G6 的真正分歧
-
-<div class="grid grid-cols-2 gap-6 mt-4">
-
-<div v-click class="card-rose">
-<div class="text-rose text-xl mb-2">G6 路线 · 预测意图</div>
-<div class="text-sub text-sm leading-relaxed">
-试图<span class="hl">看穿 AI 想什么</span>——<br/>
-对齐它的"善意"、解释它的"想法"。<br/><br/>
-<strong class="text-rose">问题</strong>：意图是黑箱，欺骗性对齐能学会"被监督时装乖"。<br/>
-预测意图，注定失败。
-</div>
-</div>
-
-<div v-click class="card-emerald">
-<div class="text-emerald text-xl mb-2">我方路线 · 约束能力</div>
-<div class="text-sub text-sm leading-relaxed">
-不预测它"想"什么——<br/>
-直接<span class="hl-emerald">把它"能"什么</span>结构性约束。<br/><br/>
-<strong class="text-emerald-300">机制</strong>：精卫不能加字 / 相得 KPI 反向 / 烛龙不与人对立。<br/>
-能力被锁，意图无意义。
-</div>
-</div>
-
-</div>
-
-<OursPoint v-click class="mt-6 text-center">
-我们和 G6 共享同一个威胁模型——<span class="hl-emerald">分歧在解法：预测意图（注定失败）vs 约束能力（结构有效）</span>
-</OursPoint>
-
-<!--
-口播（约 65 秒）：
-最后补一刀。我们和 G6 的真正分歧，不在威胁模型——其实我们共享同一个威胁模型。分歧在解法。
-G6 路线是预测意图：试图看穿 AI 在想什么，对齐它的"善意"。但问题是，意图是黑箱，欺骗性对齐能学会"被监督时装乖"。预测意图，注定失败。
-我方路线是约束能力：不预测它想什么，直接把它能什么结构性约束。精卫不能加字，相得 KPI 反向，烛龙不与人对立——能力一旦被锁，意图就无关紧要。
-所以请评委注意：我们不是天真乐观派。我们认真承认 G6 看到的所有风险——只是给出了真正能落地的、不依赖"AI 心地善良"的解法。
--->
-
----
-layout: center
----
-
-<Tag class="mb-8">补强二刀 · 三类方案可单边部署</Tag>
-
-# 不需要全球同意，今天就能做
-
-<div class="grid grid-cols-3 gap-4 mt-4">
-  <LayerCard v-click tone="emerald" icon="🩺" title="精卫">
-    <span class="text-sub">UCSF Chang Lab 已实现接近对话速度的皮层语音解码（Nature 2023）</span>
-  </LayerCard>
-  <LayerCard v-click tone="sky" icon="🤝" title="相得">
-    <span class="text-sub">长程目标对齐 + 用户可改 KPI + 开源目标函数——技术栈已成熟</span>
-  </LayerCard>
-  <LayerCard v-click tone="amber" icon="👁️" title="烛龙">
-    <span class="text-sub">BrainPort（FDA 已批，舌面成像）/ Neosensory Buzz / 磁感植入原型</span>
-  </LayerCard>
-</div>
-
-<OursPoint v-click class="mt-6 text-center">
-不必等全球共识——<span class="hl-emerald">三类方案都已有真实工程锚点，每一个明天就能开始做</span>
-</OursPoint>
-
-<div v-click class="text-sub text-sm text-center mt-4 max-w-3xl mx-auto leading-relaxed">
-H100 出口管制 · EU AI Act 域外效力 · Bletchley/Seoul 安全峰会——<br/>
-单边推进的安全治理，已经在发生。
-</div>
-
-<!--
-口播（约 60 秒）：
-补强第二刀，回应 G6 经典的军备竞赛攻击："你的方案要全球都同意才有用，可现实是囚徒困境，一方背叛就全输。"
-不必。我们的三类方案，每一个都已有真实工程锚点：
-精卫——UCSF Chang Lab 2023 年发在 Nature 上，接近对话速度。
-相得——长程目标对齐、用户可改 KPI、开源目标函数，技术栈都已成熟。
-烛龙——BrainPort 已经 FDA 批准，Neosensory 已经在卖。
-每一个，今天就能开始做，不需要敌人同意。而且单边推进的安全治理已经在发生：H100 出口管制、EU AI Act 域外效力、Bletchley 安全峰会。
-所以命题要升级：不是"等全球变善良"，是"我这一边，先把这只眼睁开"。
--->
-
----
-layout: center
----
-
-<Tag class="mb-8">补强三刀 · 相得能说"不"，谁定义"不"？</Tag>
-
-# 这是我们最诚实的让步
-
-<div class="grid grid-cols-2 gap-6 mt-4">
-
-<div v-click class="card-rose">
-<div class="text-rose text-xl mb-2">G6 必问</div>
-<div class="text-sub text-sm leading-relaxed">
-"相得能对你说不——<br/>
-但这个'不'谁来定义？<br/>
-公司？平台？资本？<br/><br/>
-那不就是 <span class="hl-rose">AI 替资本控制人</span>？"
-</div>
-</div>
-
-<div v-click class="card-emerald">
-<div class="text-emerald text-xl mb-2">我方答</div>
-<div class="text-sub text-sm leading-relaxed">
-三道防火墙：<br/>
-① <span class="hl-emerald">目标函数开源</span> · 任何人可审计 KPI 写的什么<br/>
-② <span class="hl-emerald">用户可改 KPI</span> · 你授权的"独立"，不是平台塞给你的<br/>
-③ <span class="hl-emerald">异质共签</span> · 高危目标变更需多方签署，单点不可篡改<br/><br/>
-<strong class="text-emerald-300">"不"的定义权，在你。</strong>
-</div>
-</div>
-
-</div>
-
-<Punch v-click tone="emerald" size="1.7rem" class="mt-6">
-我们承认这是相得最薄的一处——<span class="hl">所以提前堵死</span>
-</Punch>
-
-<div v-click class="text-sub text-sm text-center mt-4">
-DNSSEC 7 人共签 / 区块链 m-of-n 多签 / 核武 two-man rule——<br/>
-"权力分散于多方"已是成熟工程。
-</div>
-
-<!--
-口播（约 70 秒）：
-补强第三刀，也是我们最诚实的一刀。G6 一定会问：相得能对你说不，但这个"不"谁来定义？公司？平台？资本？那不就是 AI 替资本控制人？
-我们承认这是相得最薄的一处——所以提前堵死，三道防火墙：
-第一，目标函数开源，任何人可以审计 KPI 写了什么。
-第二，用户可改 KPI——你授权的"独立"，不是平台塞给你的。
-第三，异质共签，高危目标变更需要多方签署，单点不可篡改。
-"不"的定义权，最终在你。
-而且"权力分散于多方"已经是成熟工程：DNSSEC 七人共签、区块链 m-of-n 多签、核武 two-man rule。这些都在跑。
-诚实地承认软肋，比假装它不存在强一千倍——这也是为什么 02 节我们就把"AI 是函数无意志"立成承重墙，因为只有这样，"相得说不"才不是觉醒，而是对齐过的目标函数行为。
+口播（约 85 秒）：
+最后收束。这里不是说三个创新能证明所有 AI 都安全；它们只是三个关键论据。
+第一，压力下的自保问题，我们用精卫说明：目标可以锚定在人类真实意图上，而不是让系统自己生成目标。第二，竞争下的松绑问题，我们用玄阈说明：竞争只能加速建议，不能跳过授权直接执行。第三，长期不对称问题，我们用相得说明：AI 的长期经验可以用于陪伴人成长，训练人独立判断风险。
+所以我们的最终立场不是风险不存在，而是风险可以被拆解、被降维、被工程化治理。AI 是未来，不是因为它天然无害，而是因为我们可以把它设计成人的表达、成长和决策的外延，而不是替代人成为新的权力中心。
 -->

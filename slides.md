@@ -5,7 +5,7 @@ layout: cover
 background: /background.png
 info: |
   ## Group 5 · EEE5069
-  AI 是我们的未来：精卫 · 相得 · 烛龙 — 三类人本增强方案，证明 AI 可以成为人的能力外延。
+  AI 是我们的未来 — Redefining Human-AI Interaction: 精卫 · 相得 · 玄阈.
 class: text-center
 drawings:
   persist: false
@@ -53,7 +53,7 @@ duration: 30
 开场（约 30 秒）：
 各位老师、各位同学。Group 6 用科幻式的恐惧描述 AI——觉醒、反抗、毁灭人类，整场都在论证"笼子够不够结实"。
 我们 Group 5 今天提出一个更根本的判断：真正定义未来的 AI，不是会觉醒的猛兽——是人的另一只翅膀。
-我们用三类人本增强方案来证明它：精卫延声对应表达增强，相得延途对应成长增强，烛龙延感对应感知增强。命名来自《山海经》，但论证落在工程锚点和人的真实需求上。
+我们用三项延展创新来证明它：精卫、相得、玄阈。能力向上，主体性仍在人。
 -->
 
 ---
@@ -65,9 +65,9 @@ layout: default
 <div class="grid grid-cols-2 gap-x-8 gap-y-4 mt-20">
 
 <div class="toc-item"><div class="toc-no">01</div><div><div class="toc-t">探究本质</div><div class="toc-s">AI 的数学本质：Token / Transformer / LLM · 风险根因</div></div></div>
-<div class="toc-item"><div class="toc-no">02</div><div><div class="toc-t">人本增强方案</div><div class="toc-s">精卫 表达增强 / 相得 成长增强 / 烛龙 感知增强</div></div></div>
-<div class="toc-item"><div class="toc-no">03</div><div><div class="toc-t">回答问题</div><div class="toc-s">用三类方案逐一拆解 G6 的三大恐惧</div></div></div>
-<div class="toc-item"><div class="toc-no">04</div><div><div class="toc-t">工程方法</div><div class="toc-s">TRIZ · PACE/IPD · 专利披露 · 产品 SWOT · 商业化</div></div></div>
+<div class="toc-item"><div class="toc-no">02</div><div><div class="toc-t">三项延展创新</div><div class="toc-s">精卫 · 相得 · 玄阈</div></div></div>
+<div class="toc-item"><div class="toc-no">03</div><div><div class="toc-t">Answer G6</div><div class="toc-s">三问 · 方案与机制</div></div></div>
+<div class="toc-item"><div class="toc-no">04</div><div><div class="toc-t">分工收束</div><div class="toc-s">团队贡献 · 最终立场</div></div></div>
 
 </div>
 
@@ -80,7 +80,7 @@ layout: default
 
 <!--
 结构导览（约 20 秒）：
-今天的汇报分四部分：先讲清 AI 到底是什么，再给出三类人本增强方案——精卫、相得、烛龙；接着用这三个方案逐一机制证伪 G6 的三大恐惧；最后是工程方法。
+Part 02: Redefining Human-AI Interaction — three innovations. Part 03: answer G6 with solution + mechanism. Then team & closing.
 -->
 
 ---
@@ -100,11 +100,11 @@ src: ./pages/04-innovations.md
 ---
 
 ---
-src: ./pages/05-rebuttal.md
+src: ./pages/06b-patent-business.md
 ---
 
 ---
-src: ./pages/06b-patent-business.md
+src: ./pages/05-rebuttal.md
 ---
 
 ---

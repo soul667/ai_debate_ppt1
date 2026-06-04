@@ -100,3 +100,38 @@
 .formula .v-gap { color: #fb7185; }
 
 .slidev-page-number, .slidev-controls { opacity: 0.35; }
+
+.slidev-layout.center .launch-hero + .text-sub { opacity: 0.85; }
+
+.io-map {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
+  align-items: stretch;
+  gap: 0.65rem;
+}
+.io-node {
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+  padding: 1rem 1.05rem;
+  background: linear-gradient(135deg, rgba(255,255,255,0.075), rgba(255,255,255,0.025));
+  min-height: 8.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.io-node.emerald { border-color: rgba(52,211,153,0.38); background: linear-gradient(135deg, rgba(52,211,153,0.13), rgba(255,255,255,0.025)); }
+.io-node.sky { border-color: rgba(56,189,248,0.38); background: linear-gradient(135deg, rgba(56,189,248,0.13), rgba(255,255,255,0.025)); }
+.io-node.amber { border-color: rgba(251,191,36,0.38); background: linear-gradient(135deg, rgba(251,191,36,0.13), rgba(255,255,255,0.025)); }
+.io-k { font-size: 0.72rem; color: #6b7689; letter-spacing: 0.16em; text-transform: uppercase; margin-bottom: 0.45rem; }
+.io-title { font-size: 1.22rem; color: #fff; margin-bottom: 0.45rem; }
+.io-body { font-size: 0.9rem; line-height: 1.55; color: #aeb9cc; }
+.io-arrow { display: flex; align-items: center; justify-content: center; color: #6b7689; font-size: 1.35rem; }
+.scene-card {
+  min-height: 7.3rem;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+  padding: 1rem;
+  background: rgba(255,255,255,0.035);
+}
+.scene-card .scene-title { font-size: 1.05rem; color: #fff; margin-bottom: 0.4rem; }
+.scene-card .scene-body { font-size: 0.86rem; color: #aeb9cc; line-height: 1.5; }

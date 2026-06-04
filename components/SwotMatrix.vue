@@ -9,7 +9,10 @@
  */
 type Item = string | { t: string; d?: string }
 defineProps<{
-  s?: Item[]; w?: Item[]; o?: Item[]; t?: Item[]
+  s?: Item[]
+  w?: Item[]
+  o?: Item[]
+  t?: Item[]
 }>()
 const lead = (x: Item) => (typeof x === 'string' ? x : x.t)
 const desc = (x: Item) => (typeof x === 'string' ? '' : x.d || '')
@@ -70,13 +73,13 @@ const desc = (x: Item) => (typeof x === 'string' ? '' : x.d || '')
 .c-w { background: linear-gradient(135deg, rgba(251,191,36,0.10), #0d111b 72%); border-color: rgba(251,191,36,0.28); }
 .c-o { background: linear-gradient(135deg, rgba(56,189,248,0.10), #0d111b 72%); border-color: rgba(56,189,248,0.28); }
 .c-t { background: linear-gradient(135deg, rgba(167,139,250,0.10), #0d111b 72%); border-color: rgba(167,139,250,0.28); }
-.cap { display: flex; align-items: baseline; gap: 0.45rem; font-size: 0.86rem; color: #cdd3df; margin-bottom: 0.42rem; }
-.k { font-size: 1.28rem; color: #6ee7b7; }
+.cap { display: flex; align-items: baseline; gap: 0.5rem; font-size: 0.88rem; color: #cdd3df; margin-bottom: 0.45rem; }
+.k { font-size: 1.65rem; font-weight: 600; line-height: 1; color: #6ee7b7; }
 .k-amber { color: #fcd34d; }
 .k-cyan { color: #7dd3fc; }
 .k-violet { color: #c4b5fd; }
 ul { margin: 0; padding: 0; list-style: none; }
-li { font-size: 0.76rem; color: #c2c8d4; line-height: 1.34; padding-left: 0.82rem; position: relative; margin-bottom: 0.32rem; }
+li { font-size: 0.8rem; color: #c2c8d4; line-height: 1.38; padding-left: 0.82rem; position: relative; margin-bottom: 0.34rem; }
 li:last-child { margin-bottom: 0; }
 li::before { content: ""; position: absolute; left: 0.1rem; top: 0.6em; width: 4px; height: 4px; border-radius: 50%; background: #5b6478; }
 .lead { color: #eef1f6; }

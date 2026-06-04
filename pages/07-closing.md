@@ -25,21 +25,19 @@ class: text-center
 
   <div class="grid grid-cols-3 gap-4 mt-4">
     <div class="team-card tc-emerald">
-      <div class="team-title text-emerald">精卫 · 延声</div>
-      <div class="team-sub">闭锁症心声解码<br/>1:1 神经映射</div>
+      <div class="team-title text-emerald">精卫</div>
+      <div class="team-sub">延声<br/>神经语音 / 表达权</div>
     </div>
     <div class="team-card tc-sky">
-      <div class="team-title text-sky">相得 · 延途</div>
-      <div class="team-sub">共生伴侣<br/>KPI 反向 / 用户独立</div>
+      <div class="team-title text-sky">相得</div>
+      <div class="team-sub">延途<br/>独立 KPI</div>
     </div>
     <div class="team-card tc-amber">
-      <div class="team-title text-amber">烛龙 · 延感</div>
-      <div class="team-sub">感官壳<br/>产品鱼骨 / SWOT / 商业化</div>
+      <div class="team-title text-amber">玄阈</div>
+      <div class="team-sub">延权<br/>风险分级授权</div>
     </div>
   </div>
 </div>
-
-<div class="text-sub mt-6 text-sm">项目经理 · 整体逻辑 / 时间控制 / 答辩</div>
 
 <style scoped>
 .team-wrap { max-width: 58rem; margin: 0 auto; }
@@ -60,7 +58,7 @@ class: text-center
 口播（约 35 秒）：
 最后是团队分工。三位成员分别承担技术原理、论证框架和三个创新模块的内容整合。
 第一行是基础工作：原理组负责 ANN、Backprop 和 LLM 机制，框架组负责逻辑跳跃、G6 三问和比翼框架。
-第二行对应三个创新：精卫延声、相得延途、烛龙延感；最后由项目经理统一整体逻辑、时间控制和答辩衔接。
+第二行对应三个创新：精卫延声、相得延途、玄阈延权；最后由项目经理统一整体逻辑、时间控制和答辩衔接。
 -->
 
 ---
@@ -77,9 +75,9 @@ G6 在 <span class="hl-amber">恐惧</span> 未来，我们在 <span class="hl-e
 </div>
 
 <div v-click class="grid grid-cols-3 gap-3 mt-10 max-w-3xl mx-auto">
-  <div class="lock-chip lc-emerald">精卫 · 延声</div>
-  <div class="lock-chip lc-sky">相得 · 延途</div>
-  <div class="lock-chip lc-amber">烛龙 · 延感</div>
+  <div class="lock-chip lc-emerald">精卫</div>
+  <div class="lock-chip lc-sky">相得</div>
+  <div class="lock-chip lc-amber">玄阈</div>
 </div>
 
 <div v-click class="mt-12">
@@ -116,7 +114,7 @@ G6 在 <span class="hl-amber">恐惧</span> 未来，我们在 <span class="hl-e
 最后，请允许我收束今天的主线。
 AI 不是没有风险，但风险不是宿命。
 Group 6 在恐惧未来，Group 5 在设计未来。
-精卫延声、相得延途、烛龙延感——三个延展型创新，证明 AI 不是会觉醒的猛兽，是替人多做一件他做不到的事的工具。
+精卫延声、相得延途、玄阈延权——三个延展型创新，证明 AI 不是会觉醒的猛兽，是替人多做一件他做不到的事的工具。
 G6 一直在问"笼子关得住 AI 吗"——我们的答案，从第一页到最后一页，始终是同一句：
 AI 不是人的对手，是人的另一只翅膀。
 把这只翅膀长好，AI 就是我们的未来——可控、可用、可审计的真实基础设施。

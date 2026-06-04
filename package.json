@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "build": "slidev build",
-    "dev": "slidev --open --remote",
-    "dev:lan": "slidev --remote",
+    "dev": "slidev --open --remote --port 3030",
+    "dev:lan": "slidev --remote --port 3030",
+    "dev:notes": "bun speaker-notes-server.mjs",
     "export": "slidev export"
   },
   "dependencies": {
