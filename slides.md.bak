@@ -1,0 +1,115 @@
+---
+theme: seriph
+title: AI 是我们的未来 — 危险的不是 AI，是我们怎么部署
+layout: cover
+background: /background.png
+info: |
+  ## Group 5 · EEE5069
+  AI 是我们的未来：从物理层、认知层、博弈层让危险在结构上不可能发生。
+class: text-center
+drawings:
+  persist: false
+transition: fade
+mdc: true
+duration: 28
+---
+
+<div class="cover-overlay" />
+
+<div class="h-full flex flex-col justify-center items-center relative z-10">
+
+<div class="chip mb-6">Group 5 · EEE5069 Modern Engineering Innovation</div>
+
+<div class="mega leading-none">AI 是我们的未来</div>
+
+<div class="punch text-3xl mt-5">危险的不是 AI，是我们怎么部署</div>
+
+<div class="text-faint text-base mt-3 tracking-widest">FROM AI RISK TO AI INFRASTRUCTURE</div>
+
+<div class="flex gap-3 mt-12">
+  <div class="chip-badge border-amber/40 text-amber">物理 · 锁身体</div>
+  <div class="chip-badge border-emerald/40 text-emerald">认知 · 锁自我</div>
+  <div class="chip-badge border-sky/40 text-sky">博弈 · 锁激励</div>
+</div>
+
+</div>
+
+<style scoped>
+.cover-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(6,7,13,0.74), rgba(6,7,13,0.55) 50%, rgba(6,7,13,0.85));
+  z-index: 1;
+}
+.chip-badge {
+  font-size: 0.9rem;
+  padding: 0.5rem 1.1rem;
+  border: 1px solid;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(6px);
+}
+</style>
+
+<!--
+开场（约 30 秒）：
+各位老师、各位同学。Group 6 把 AI 描述成一个会觉醒、会反抗、最终毁灭人类的猛兽，整场都在论证"笼子够不够结实"。
+我们 Group 5 今天提出一个更根本的判断：危险的不是 AI 本身，是我们怎么部署它。
+我们的方案，是让危险在物理、认知、博弈三个层面，根本无法发生。
+-->
+
+---
+layout: default
+---
+
+# 目录 ｜ Contents
+
+<div class="grid grid-cols-2 gap-x-8 gap-y-4 mt-20">
+
+<div class="toc-item"><div class="toc-no">01</div><div><div class="toc-t">探究本质</div><div class="toc-s">AI 的数学本质：Token / Transformer / LLM · 风险根因</div></div></div>
+<div class="toc-item"><div class="toc-no">02</div><div><div class="toc-t">三个创新点</div><div class="toc-s">物理熔断引擎 · 目标锁定引擎 · 安全资产市场</div></div></div>
+<div class="toc-item"><div class="toc-no">03</div><div><div class="toc-t">正面回答 Group 6</div><div class="toc-s">用三个创新点逐一拆解 G6 的三大恐惧</div></div></div>
+<div class="toc-item"><div class="toc-no">04</div><div><div class="toc-t">工程方法</div><div class="toc-s">TRIZ · PACE/IPD · SWOT</div></div></div>
+
+</div>
+
+<style scoped>
+.toc-item { display: flex; gap: 1rem; align-items: baseline; padding: 0.7rem 1rem; border-radius: 12px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); }
+.toc-no { font-family: 'Inter Variable', sans-serif; font-size: 1.5rem; color: #34d399; min-width: 2rem; }
+.toc-t { font-size: 1.2rem; color: #fff; }
+.toc-s { font-size: 0.82rem; color: #aeb9cc; margin-top: 0.15rem; }
+</style>
+
+<!--
+结构导览（约 20 秒）：
+今天的汇报分六部分：先讲清 AI 到底是什么，再分析风险根因，然后我们做一个框架重构，
+接着给出三层创新方案，用它正面回答 G6 的三个质疑，最后是工程方法。
+-->
+
+---
+src: ./pages/01-opening.md
+---
+
+---
+src: ./pages/02-principles.md
+---
+
+---
+src: ./pages/03-framing.md
+---
+
+---
+src: ./pages/04-innovations.md
+---
+
+---
+src: ./pages/05-rebuttal.md
+---
+
+---
+src: ./pages/06-tools.md
+---
+
+---
+src: ./pages/07-closing.md
+---

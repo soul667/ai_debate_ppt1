@@ -1,0 +1,102 @@
+/* ============================================================
+   Group 5 · 全局基底  (仅放 UnoCSS 无法表达的部分)
+   设计系统的颜色/卡片/高亮/标签 → 见 uno.config.ts (shortcuts)
+   字体：中文 钉钉进步体 / 英文 Inter ；无斜体；颜色表达强调
+   ============================================================ */
+
+@import url('https://cdn.jsdelivr.net/npm/@fontsource-variable/inter/index.css');
+@import url('https://cdn.jsdelivr.net/npm/cn-fontsource-ding-talk-jin-bu-ti-regular/font.css');
+
+:root {
+  --g5-bg: #07080d;
+  --g5-font: 'Inter Variable', 'DingTalk JinBuTi', sans-serif;
+  --slidev-theme-primary: #34d399;
+}
+
+/* 禁止合成假粗体 + 全局禁斜体（钉钉进步体本身偏斜，再斜很丑） */
+* { font-synthesis: none !important; font-style: normal !important; }
+
+/* 纯黑背景 + 克制双色辉光 */
+.slidev-layout {
+  background:
+    radial-gradient(1000px 680px at 18% -10%, rgba(52, 211, 153, 0.08), transparent 62%),
+    radial-gradient(900px 620px at 100% 115%, rgba(56, 189, 248, 0.07), transparent 62%),
+    var(--g5-bg) !important;
+  color: #eef1f6 !important;
+  font-family: var(--g5-font);
+  font-weight: 400;
+}
+
+/* 默认内容页：加大四周留白，内容整体略缩，避免组件顶到页面边缘/底部 */
+.slidev-layout.default {
+  padding: 2.6rem 3.4rem !important;
+  zoom: 0.92;
+}
+.slidev-layout.cover, .slidev-layout.intro, .slidev-layout.end,
+.slidev-layout.section, .slidev-layout.center {
+  background:
+    radial-gradient(1200px 760px at 50% -20%, rgba(52, 211, 153, 0.13), transparent 60%),
+    radial-gradient(900px 620px at 100% 122%, rgba(56, 189, 248, 0.10), transparent 60%),
+    var(--g5-bg) !important;
+}
+
+/* 标题：克制 + 左侧光条 */
+.slidev-layout h1 {
+  font-family: var(--g5-font) !important;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 1.85rem;
+  line-height: 1.25;
+  position: relative;
+  padding-left: 0.6em;
+  margin-bottom: 0.25em;
+}
+.slidev-layout h1::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0.18em; bottom: 0.18em;
+  width: 5px; border-radius: 6px;
+  background: linear-gradient(180deg, #34d399, #38bdf8);
+  box-shadow: 0 0 14px rgba(52, 211, 153, 0.5);
+}
+.slidev-layout.cover h1, .slidev-layout.intro h1, .slidev-layout.end h1,
+.slidev-layout.section h1, .slidev-layout.center h1 { padding-left: 0; font-size: 2.1rem; }
+.slidev-layout.cover h1::before, .slidev-layout.intro h1::before,
+.slidev-layout.end h1::before, .slidev-layout.section h1::before,
+.slidev-layout.center h1::before { display: none; }
+
+.slidev-layout h2 { color: #34d399 !important; font-weight: 500; font-size: 1.3rem; }
+.slidev-layout h3 { color: #38bdf8 !important; font-weight: 500; }
+.slidev-layout strong { color: #fff; font-weight: 500; }
+.slidev-layout a { color: #38bdf8; text-decoration: none; }
+
+/* 金句：渐变文字（text-clip 在 uno 里写起来繁琐，留在这） */
+.punch, .punch-amber, .punch-violet {
+  text-align: center; font-family: var(--g5-font); font-weight: 500; line-height: 1.4;
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.punch { background-image: linear-gradient(92deg, #34d399, #38bdf8); filter: drop-shadow(0 0 20px rgba(52,211,153,0.22)); }
+.punch-amber { background-image: linear-gradient(92deg, #fbbf24, #34d399); }
+.punch-violet { background-image: linear-gradient(92deg, #a78bfa, #38bdf8); }
+
+.mega { font-family: var(--g5-font); font-size: 2.9rem; font-weight: 600; line-height: 1.08; color: #fff; }
+
+/* 公式：KaTeX 用自带数学字体（Computer Modern 衬线，含 \hat 等符号最完整）。
+   不强制 Tinos —— 之前 .katex * !important 会破坏重音/根号等符号字形。 */
+.katex { font-size: 1.1em; }
+.formula {
+  font-family: 'Times New Roman', 'Nimbus Roman', serif;
+  font-size: 2.2rem;
+  color: #eef1f6;
+  text-align: center;
+  letter-spacing: 0.01em;
+  line-height: 1.35;
+}
+.formula .op { color: #6b7689; margin: 0 0.3rem; }
+.formula .v-cap { color: #6ee7b7; }
+.formula .v-aut { color: #7dd3fc; }
+.formula .v-perm { color: #fcd34d; }
+.formula .v-inc { color: #c4b5fd; }
+.formula .v-gap { color: #fb7185; }
+
+.slidev-page-number, .slidev-controls { opacity: 0.35; }
